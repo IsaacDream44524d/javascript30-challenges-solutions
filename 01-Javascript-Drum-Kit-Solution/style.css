@@ -29,6 +29,7 @@ body, html {
     text-align: center;
     background: rgba(0, 0, 0, 0.5);
     width: 50px;
+    transition: all 0.07s;
 }
 
 kbd {
@@ -42,3 +43,15 @@ span {
     color: gold;
 }
 
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0, 0, 10px #ffc600;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
